@@ -1,0 +1,11 @@
+<form method="POST">
+    {% csrf_token %}
+    <input type="email" name="email" placeholder="E-mail" required>
+    <input type="password" name="senha" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+    <a href="{% url 'registrar' %}">Registre-se</a>
+</form>
+
+{% for message in messages %}
+    <p>{{ message }}</p>
+{% endfor %}
