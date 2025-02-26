@@ -1,6 +1,6 @@
-# Desafio Login - Fidelity Pesquisas Cadastrais
+ Desafio Login - Fidelity Pesquisas Cadastrais
 
-## 📌 Visão Geral
+📌 Visão Geral
 Este projeto é um desafio técnico proposto pela **Fidelity Pesquisas Cadastrais**, que consiste na criação de uma aplicação de login e registro de usuários utilizando **Django** e um banco de dados relacional.
 
  🎯 Funcionalidades Implementadas
